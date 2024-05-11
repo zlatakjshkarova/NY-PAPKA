@@ -80,7 +80,7 @@ h6 {
 }
 
 .nav__link:hover {
-    color: rgb(52, 84, 122);
+    color: rgb(251, 111, 190);
 }
 
 .hero__content {
@@ -117,7 +117,7 @@ h6 {
 }
 
 .btn {
-    background-color: rgb(78, 78, 161);
+    background-color: rgb(196, 190, 248);
     text-decoration: none;
     font-weight: 400;
     font-size: 16;
@@ -166,7 +166,7 @@ h6 {
 
 .achievements {
     padding: 10% 0;
-    background-color: rgb(64, 64, 150);
+    background-color: rgb(170, 179, 231);
     align-items: flex-end;
 
 }
@@ -204,16 +204,17 @@ h6 {
 .skills_desc {
     width: 50%;
     padding-top: 100px;
-}
-
-
-.skills:hover.skills_desc {
-    background-color: chartreuse;
 
 }
 
-.skills:hover.skill_meter::-webkit-meter-optimum-value {
-    background: rebeccapurple;
+
+.skill_desc:hover {
+    background-color: rgba(223, 239, 2, 0.304);
+
+}
+
+.skills:hover.skills_meter::-webkit-meter-optimum-value {
+    background: rgb(255, 191, 0);
 }
 
 .section-title {
@@ -230,10 +231,8 @@ h6 {
 }
 
 .skill_desc {
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 12px;
-    color: rgb(81, 154, 223);
+
+    color: rgb(241, 2, 2);
 }
 
 .skills_img-wrap {}
@@ -450,7 +449,7 @@ h6 {
 
 .gf {
     padding: 15px;
-    background-color: rgb(99, 99, 154);
+    background-color: rgb(170, 173, 241);
     align-items: flex-end;
 
 }
